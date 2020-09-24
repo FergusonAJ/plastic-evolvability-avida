@@ -1,0 +1,204 @@
+# Thu Sep 17 01:57:30 2020
+# Filename........: analysis/env_all/final_dominant.gen
+# Update Output...: N/A
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 676.000000
+# Gestation Time..: 340
+# Fitness.........: 1.988235
+# Errors..........: 3
+# Genome Size.....: 175
+# Copied Size.....: 175
+# Executed Size...: 169
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+# nand 0 (0.000000)
+# and 0 (0.000000)
+# orn 0 (0.000000)
+# or 1 (1.000000)
+# andn 0 (0.000000)
+# nor 0 (0.000000)
+# xor 0 (0.000000)
+# equ 0 (0.000000)
+
+
+if-label
+set-flow
+h-alloc
+swap
+set-flow
+nop-A
+pop
+mov-head
+nop-C
+inc
+sense-react-AND
+pop
+nop-C
+inc
+nop-C
+jmp-head
+add
+IO
+h-alloc
+sub
+nop-B
+IO
+nop-C
+nand
+if-less
+swap
+nand
+h-copy
+set-flow
+IO
+nand
+nand
+nop-B
+IO
+add
+nop-B
+inc
+IO
+IO
+nop-C
+nand
+set-flow
+swap
+nop-B
+sense-react-NOT
+nop-C
+h-copy
+if-n-equ
+add
+if-label
+h-alloc
+shift-l
+h-divide
+if-n-equ
+nop-C
+sense-react-ORN
+pop
+h-alloc
+nand
+nop-B
+IO
+nop-B
+if-label
+inc
+if-n-equ
+nop-A
+IO
+swap
+h-search
+jmp-head
+sense-react-AND
+h-copy
+sense-react-OR
+set-flow
+nop-A
+swap
+nop-A
+sub
+h-copy
+dec
+push
+sense-react-NOT
+h-copy
+push
+push
+push
+pop
+jmp-head
+IO
+nop-B
+pop
+nand
+h-copy
+sense-react-ANDN
+get-head
+IO
+push
+h-divide
+set-flow
+sense-react-NOT
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+if-label
+mov-head
+h-copy
+pop
+if-n-equ
+swap
+nop-C
+if-n-equ
+nop-B
+shift-r
+nop-C
+sense-react-AND
+shift-r
+sense-react-NOT
+sense-react-NAND
+nand
+sense-react-NOT
+pop
+nop-C
+inc
+nop-C
+sense-react-OR
+jmp-head
+shift-r
+IO
+IO
+nop-C
+nand
+swap
+nand
+if-less
+swap
+if-less
+sense-react-NOT
+sense-react-ANDN
+IO
+set-flow
+nand
+nand
+sense-react-ANDN
+sense-react-AND
+nop-B
+IO
+swap-stk
+sub
+IO
+nop-C
+sense-react-ORN
+sense-react-ANDN
+dec
+sense-react-ORN
+sub
+IO
+nop-B
+sense-react-NOT
+nand
+inc
+push
+shift-r
+nop-B
+if-less
+if-n-equ
+nop-A
+h-divide
